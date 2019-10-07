@@ -11,7 +11,7 @@ a {
 a:hover { color: Tomato; }
 
 header, nav, main, footer {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -27,8 +27,10 @@ header {
 header h1 {
 	color:#B30928;
 	padding: 40px 60px;
-	font-family: 'Abril Fatface', cursive;
-	font-size: 24px;
+	font-family: 'Mountains of Christmas', cursive;
+	font-size: 60px;
+	text-align:center;
+	font-weight:bold;
 
 }
 
@@ -39,20 +41,26 @@ nav ul {
 	display: flex;
 	justify-content: flex-end;
 }
-nav li { padding: 10px 10px; }
+nav li { padding: 10px 10px; 
+font-family:'Mountains of Christmas', cursive;
+font-size:24px;  }
 nav a { color: BlanchedAlmond; }
 nav a:hover { color: white; }
 
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	background-color:clear;
 	display: grid;
 	grid-template-columns: 60% 40%;
 }
 
 section {
 	padding: 40px 60px;
+}
+h2{
+	font-family:'Helvetica', cursive;
+	font-weight:bold;
 }
 
 section ul, aside ul {
@@ -65,6 +73,10 @@ aside {
 	padding: 40px 10px;
 }
 
+main li{
+	font-family:'Helvetica', cursive;
+}
+
 
 
 /* Footer styles */
@@ -72,5 +84,6 @@ footer {
 	background-color: #FFF740;
 	color: #B30928;
 	text-align: center;
+	font-family:'Helvetica', thin;
  }
  footer p { padding: 20px; }
