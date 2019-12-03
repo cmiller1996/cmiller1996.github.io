@@ -1,5 +1,11 @@
 
+.home nav a{
+	color:white;
+}
 
+nav a{
+	color:black;
+}
 
 
 .shine:hover {
@@ -121,15 +127,19 @@ nav {
 padding-right: 100px; 
 float:right;
 	background-color: none }
+
 nav ul { 
 	display: inline-block;
 	justify-content: center;
 }
+
 nav li { padding: 20px 20px; 
 font-family: 'Quicksand', sans-serif;
 
 font-size:40px;  }
-nav a { color: black; }
+nav a { color: ; }
+
+
 
 
 
